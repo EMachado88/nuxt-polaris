@@ -1,6 +1,6 @@
 <template>
 <dynamic-tag
-        :tag="url ? 'a' : 'button'"
+        :tag="url ? 'router-link' : 'button'"
         :on="{
             click: onClick,
             blur: onBlur,

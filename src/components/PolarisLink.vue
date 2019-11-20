@@ -1,10 +1,10 @@
 <template>
-<a class="Polaris-Link" 
+<router-link class="Polaris-Link" 
    :to="url" 
    :target="external ? '_blank' : ''"
    @click="onClick">
     <slot></slot>
-</a>
+</router-link>
 </template>
 
 <script>
