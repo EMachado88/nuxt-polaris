@@ -1,5 +1,5 @@
 {
-  "name": "@eastsideco/polaris-vue",
+  "name": "@nuxtjs/nuxt-polaris",
   "version": "0.1.19",
   "description": "Shopify Polaris for Vue 2",
   "main": "lib/polaris-vue.min.js",
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EastsideCo/polaris-vue.git"
+    "url": "https://github.com/EMachado88/nuxt-polaris.git"
   },
   "keywords": [],
-  "author": "ESC Apps Team <apps@eastsideco.com>",
+  "author": "Emanuel Machado <emachado@emachado.pt>",
   "license": "MIT",
   "dependencies": {
     "change-case": "^3.0.1",
