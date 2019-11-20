@@ -1,3 +1,9 @@
+# Not ready for production
+## This is a WIP and can't be used yet
+Will be updating this soon 
+
+***
+
 Allows you to use [Shopify Polaris](http://polaris.shopify.com/) components in [Vue 2](http://vuejs.org/).
 
 This library currently contains components up-to-date with: _@shopify/polaris `v1.9.1`_
