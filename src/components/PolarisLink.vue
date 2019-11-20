@@ -1,6 +1,6 @@
 <template>
 <a class="Polaris-Link" 
-   :href="url" 
+   :to="url" 
    :target="external ? '_blank' : ''"
    @click="onClick">
     <slot></slot>

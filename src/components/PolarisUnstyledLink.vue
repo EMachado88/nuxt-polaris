@@ -1,5 +1,5 @@
 <template>
-<a :href="url" 
+<a :to="url" 
    :target="external ? '_blank' : ''"
    :rel="external ? 'noopener noreferrer' : ''"
    data-polaris-unstyled="true">

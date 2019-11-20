@@ -10,7 +10,7 @@
         :aria-label="accessibilityLabel"
         :class="classes"
         :data-polaris-unstyled="url ? 'true' : ''"
-        :href="url"
+        :to="url"
         :disabled="isDisabled"
         :target="external ? '_blank' : ''"
         :role="loading ? 'alert' : null"
