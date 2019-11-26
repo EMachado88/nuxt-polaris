@@ -35,7 +35,7 @@ yarn add nuxt-polaris # or npm install nuxt-polaris
 ## Viewing the demo page
 The demo page contains code examples of almost all the functionality in the library, so it can be pretty helpful.
 
-To view the demo, open up `node_modules/@eastsideco/polaris-vue/test/index.html` after installing the library.
+To view the demo, open up `node_modules/nuxt-polaris/test/index.html` after installing the library.
 
 Online version: http://demo.polaris-vue.eastsideco.io/
 
