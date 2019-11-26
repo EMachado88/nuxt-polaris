@@ -1,6 +1,6 @@
 {
   "name": "nuxt-polaris",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Shopify Polaris for Nuxt",
   "main": "lib/module.js",
   "scripts": {
