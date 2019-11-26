@@ -7,7 +7,8 @@
     "build": "webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
-    "test:watch": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
+    "test:watch": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js",
+    "release": "yarn build && standard-version && git push --follow-tags && npm publish"
   },
   "files": [
     "lib"
@@ -25,6 +26,7 @@
     "eslint-loader": "1.7.1",
     "extract-text-webpack-plugin": "^3.0.0",
     "mocha": "3.3.0",
+    "standard-version": "^7.0.1",
     "style-loader": "^0.18.2",
     "svg-inline-loader": "^0.8.0",
     "vue-loader": "^13.0.4",
